@@ -6,7 +6,9 @@ function route($filename, $data = []) {
   if (file_exists("../controllers/{$filename}") and
       file_exists("../views/{$filename}")) {
         require("../controllers/{$filename}");
+        require("../views/header.php");
         require("../views/{$filename}");
+        require("../views/footer.php");
         return;
   }
 
