@@ -1,3 +1,3 @@
 <body>
-  <?= $data["error"] ?>
+  <?= $error ?>
 </body>

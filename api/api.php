@@ -13,12 +13,12 @@ function route($filename, $data = []) {
   }
 
 	else
-		error("Cannot find file: " . $filename);
+		error("Cannot find route to: " .$filename);
 }
 
 // returns an error message to the user
-function error($string) {
-	route("error.php", ["error" => $string]);
+function error($error) {
+	require("../views/error.php");
 	exit;
 }
 

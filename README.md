@@ -1,6 +1,4 @@
-A simplistic MVC app framework for small applications.
-
-Copyright (C) 2020 clb-dev
+A simplistic PHP MVC app framework for small applications.
 
 Routes
 ------
@@ -21,4 +19,6 @@ Views
 
 These are the html files to be displayed after the controller has done it's
 work, again views/login.php. These only need to contain the <body> part of the
-html. The header and footer files take care of the rest.
+html, the header and footer files take care of the rest.
+
+Copyright (C) 2020 clb-dev
