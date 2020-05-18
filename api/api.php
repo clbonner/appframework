@@ -14,7 +14,7 @@ function route($filename, $data = []) {
     }
 
 	else
-		error("Cannot find route to: " .$filename);
+        error("Cannot find route to: " .$filename);
 }
 
 // returns an error message to the user
