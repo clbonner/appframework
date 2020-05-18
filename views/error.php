@@ -1,3 +1,4 @@
 <body>
-  <?= $error ?>
+    <?= $error ?>
 </body>
+</html>
