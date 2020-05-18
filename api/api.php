@@ -13,7 +13,7 @@ function route($filename, $data = []) {
         return;
     }
 
-	else
+    else
         error("Cannot find route to: " .$filename);
 }
 
